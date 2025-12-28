@@ -132,11 +132,11 @@ Credit Card Fraud Detection Using Machine Learning/
 ---
 ## ⭐ Key Features
 
-  -- Handles real-world imbalanced data
-  -- Multiple ML models comparison
-  -- Emphasis on fraud-sensitive metrics
-  -- Clear and interpretable results
-  -- Suitable for financial security systems
+  -  Handles real-world imbalanced data
+  -  Multiple ML models comparison
+  -  Emphasis on fraud-sensitive metrics
+  -  Clear and interpretable results
+  -  Suitable for financial security systems
 
 ---
 ## 🚀 Future Enhancements
