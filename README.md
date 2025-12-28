@@ -20,15 +20,18 @@ The trained models analyze transaction patterns and classify each transaction as
 ## 🧩 Dataset Information
 
 Dataset: Credit Card Transactions Dataset
-Transactions: European cardholder transactions
-Features: Numerical & anonymized (for privacy protection)
-Target Variable:
+- Transactions: European cardholder transactions
+- Features: Numerical & anonymized (for privacy protection)
+- Target Variable:
+  
 0 → Legitimate Transaction
+
 1 → Fraudulent Transaction
-Challenge: Severe class imbalance (fraud cases < 1%)
+
+- Challenge: Severe class imbalance (fraud cases < 1%)
 ---
 ## ⚙️ System Workflow
-
+```
 Transaction Dataset
    ↓
 Data Preprocessing & Cleaning
@@ -42,6 +45,7 @@ Model Training
 Model Evaluation & Comparison
    ↓
 Fraud Prediction
+```
 ---
 🧠 Machine Learning Models Used
 
@@ -55,11 +59,11 @@ Fraud Prediction
 ## 📊 Evaluation Metrics
 
 Due to class imbalance, the following metrics are used:
-Precision
-Recall
-F1-Score
-Confusion Matrix
-ROC-AUC Curve
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+* ROC-AUC Curve
 ⚠️ Accuracy alone is not reliable for fraud detection problems.
 ---
 ## 📈 Model Performance (Best Model Example)
@@ -129,27 +133,38 @@ Apply advanced resampling techniques (SMOTE, ADASYN)
 ## 🏁 Conclusion
 
 This project demonstrates a practical machine learning approach to credit card fraud detection.
+
 By handling data imbalance and using appropriate evaluation metrics, the system achieves high fraud detection performance, making it suitable for banking and financial applications.
 ---
 ## 👨‍💻 Author
 
 P. Sai Raghuveer Reddy
+
 Department of Artificial Intelligence & Machine Learning
+
 RNS Institute of Technology, Bengaluru
+
 Year: 2025
 ---
 ## 🙏 Acknowledgements
 
 Dataset: Public Credit Card Fraud Dataset
+
 Tools: Python, Scikit-learn, NumPy, Pandas, Matplotlib
+
 Guidance: Dr. Mallikarjun H M, Assistant Professor , Department of AIML, RNSIT
 ---
 ## 🔑 Keywords
 
 · Credit Card Fraud Detection 
+
 · Machine Learning 
+
 · Imbalanced Data 
+
 · Financial Security 
+
 · Classification 
+
 · Data Mining
 ---
