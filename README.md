@@ -9,6 +9,7 @@ This project focuses on detecting fraudulent credit card transactions using Mach
 Due to the highly imbalanced nature of fraud datasets, traditional accuracy-based evaluation is insufficient. 
 Hence, this project emphasizes precision, recall, F1-score, and ROC-AUC to build a reliable fraud detection system.
 The trained models analyze transaction patterns and classify each transaction as legitimate or fraudulent, helping financial institutions prevent losses and enhance transaction security.
+
 ---
 
 ## 🎯 Objectives
@@ -28,7 +29,6 @@ Dataset: Credit Card Transactions Dataset
   0 → Legitimate Transaction
   1 → Fraudulent Transaction
 - Challenge: Severe class imbalance (fraud cases < 1%)
-- 
 ---
 
 ## ⚙️ System Workflow
@@ -110,38 +110,43 @@ Credit Card Fraud Detection Using Machine Learning/
 ## ▶️ Running Instructions
 
 1️. **Install Dependencies**: pip install numpy pandas matplotlib seaborn scikit-learn
+
 2️. **Run the Jupyter Notebook**:jupyter notebook ML___Credit_Card_Fraud_Detection.ipynb
-3️. **Execute All Cells**:
-|--------|--------|
-|Dataset loading|Preprocessing|Model training|Evaluation & comparison|
+
+3️. **Execute All Cells**: Dataset loading -> Preprocessing -> Model training -> Evaluation & comparison
 
 ---
 
 ## 📈 Visualizations
 
 ✔ Class imbalance visualization
+
 ✔ Correlation heatmap
+
 ✔ Confusion matrix
+
 ✔ ROC-AUC curve
+
 ✔ Model comparison plots
 
 ---
 ## ⭐ Key Features
 
-Handles real-world imbalanced data
-Multiple ML models comparison
-Emphasis on fraud-sensitive metrics
-Clear and interpretable results
-Suitable for financial security systems
+^ Handles real-world imbalanced data
+^ Multiple ML models comparison
+^ Emphasis on fraud-sensitive metrics
+^ Clear and interpretable results
+^ Suitable for financial security systems
 
 ---
 ## 🚀 Future Enhancements
-
-Apply Deep Learning (LSTM / Autoencoders)
-Implement real-time fraud detection
-Deploy using Flask / FastAPI
-Integrate streaming transaction data
-Apply advanced resampling techniques (SMOTE, ADASYN)
+```
+-- Apply Deep Learning (LSTM / Autoencoders)
+-- Implement real-time fraud detection
+-- Deploy using Flask / FastAPI
+-- Integrate streaming transaction data
+-- Apply advanced resampling techniques (SMOTE, ADASYN)
+```
 
 ---
 ## 🏁 Conclusion
